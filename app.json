@@ -2,6 +2,7 @@
   "expo": {
     "name": "babylonjs",
     "slug": "babylonjs",
+    "scheme": "babylonjs",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -26,6 +27,17 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "21e13fa0-7c87-4eac-af3f-4914f0829461"
+      }
     }
   }
 }

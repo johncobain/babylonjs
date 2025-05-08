@@ -11,15 +11,23 @@ import {
 } from "@babylonjs/core";
 import "@babylonjs/loaders/glTF";
 
-function App(): React.JSX.Element {
+function Render(): React.JSX.Element {
   const engine = useEngine();
   const [scene, setScene] = useState<Scene>();
   const [camera, setCamera] = useState<Camera>();
 
-  const basicGLTFURL =
-    "https://raw.githubusercontent.com/thechaudharysab/babylonjspoc/main/src/assets/Client.gltf";
+  // const basicGLTFURL = "https://raw.githubusercontent.com/thechaudharysab/babylonjspoc/main/src/assets/Client.gltf";
 
-  //const horseGLTFURL = "https://raw.githubusercontent.com/thechaudharysab/babylonjspoc/main/src/assets/Horse.gltf";
+  const basicGLTFURL =
+    "https://raw.githubusercontent.com/thechaudharysab/babylonjspoc/main/src/assets/Horse.gltf";
+
+  // const basicGLTFURL = require("../assets/Cow.glb");
+  // const basicGLTFURL = require("../assets/Horse.glb")
+  // const basicGLTFURL = require("../assets/Llama.glb")
+  // const basicGLTFURL = require("../assets/Pig.glb")
+  // const basicGLTFURL = require("../assets/Pug.glb")
+  // const basicGLTFURL = require("../assets/Sheep.glb")
+  // const basicGLTFURL = require("../assets/Zebra.glb")
 
   const renderbasicGLTF = () => {
     SceneLoader.LoadAsync(basicGLTFURL, undefined, engine)
@@ -27,24 +35,15 @@ function App(): React.JSX.Element {
         if (loadedScene) {
           setScene(loadedScene);
 
-          const light = new HemisphericLight(
-            "light",
-            new Vector3(0, 1, 0),
-            loadedScene
-          );
-          light.intensity = 0.7;
+          loadedScene.createDefaultCameraOrLight(true, undefined, true);
+          (loadedScene.activeCamera as ArcRotateCamera).alpha += Math.PI;
+          setCamera(loadedScene.activeCamera!);
 
-          const camera = new ArcRotateCamera(
-            "camera",
-            -Math.PI / 2,
-            Math.PI / 2,
-            -6,
-            new Vector3(0, 2, 0),
-            loadedScene,
-            true
-          );
-          camera.attachControl(true);
-          setCamera(camera);
+          const idleAnim = loadedScene.getAnimationGroupByName("Idle");
+
+          if (idleAnim) {
+            idleAnim.start(true, 1.0);
+          }
         } else {
           console.log("Error loading loadedScene.");
         }
@@ -73,4 +72,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default App;
+export default Render;
