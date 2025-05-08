@@ -809,28 +809,28 @@
     "@babel/helper-string-parser" "^7.27.1"
     "@babel/helper-validator-identifier" "^7.27.1"
 
-"@babylonjs/core@6.14.0":
-  version "6.14.0"
-  resolved "https://registry.yarnpkg.com/@babylonjs/core/-/core-6.14.0.tgz#da90c52f75d4235b8a202e7f5852148aae09070c"
-  integrity sha512-ciIfWMMtV5jsnqxqTn+v/CS65yji6CXTP2drmvLlzk+k+IZjE8RfkpMqZgZozN/KNkOmIVn2Li7qRMjg4ZUGlw==
+"@babylonjs/core@8.2.0":
+  version "8.2.0"
+  resolved "https://registry.yarnpkg.com/@babylonjs/core/-/core-8.2.0.tgz#517328ce0f1af5cc74ca84acd246eac17bb55be1"
+  integrity sha512-n3AjdJtzktXIS44t7BTvPZXAS2xBuo/suix3mI7b3+rk4nY0f1Y7X5uaseRYmazHyxPxTZ1g/LvUI5F5W/Ut2g==
 
-"@babylonjs/loaders@6.14.0":
-  version "6.14.0"
-  resolved "https://registry.yarnpkg.com/@babylonjs/loaders/-/loaders-6.14.0.tgz#5e861748522dbf8da8b0b85140f64a04aa5c86ab"
-  integrity sha512-rGDMuyHEphpOHBO4JtY0vNIri2VMAmwUw3UmDJ+C00erQpiQDXyzG3IkJpXDHt7mWOJZNASRJjC76bPDu9zarg==
+"@babylonjs/loaders@8.2.0":
+  version "8.2.0"
+  resolved "https://registry.yarnpkg.com/@babylonjs/loaders/-/loaders-8.2.0.tgz#39431f58335af01ddffb1cead02dad57dd8b1ea6"
+  integrity sha512-GPdX1h43qnjPjcaFcC9TqcRDyVyYG07ll7E92AIYBaYJXym+uA2P1iLpYjMJSZvEHytCZkRF2ffNbxoInbGLfg==
 
-"@babylonjs/react-native-iosandroid-0-71@1.8.5":
-  version "1.8.5"
-  resolved "https://registry.yarnpkg.com/@babylonjs/react-native-iosandroid-0-71/-/react-native-iosandroid-0-71-1.8.5.tgz#74ffde79fafe5c9217980cd0c8680b6278da2b3d"
-  integrity sha512-T9r/2D16K0g3mG/o8ynrAUwkFxaUZMXCJhpfjFN0B6Xrv6AkQ7QqVg6ul8gUEm63smTtADkqwTtmzMDmec7WmQ==
+"@babylonjs/react-native-iosandroid-0-71@1.8.6":
+  version "1.8.6"
+  resolved "https://registry.yarnpkg.com/@babylonjs/react-native-iosandroid-0-71/-/react-native-iosandroid-0-71-1.8.6.tgz#45d9b5d0c54dd9d0e21fa827fb46f277144afd2b"
+  integrity sha512-WC5/+iH+KaHwacWKNMk1MCuRxuMftJErFs6TSQ1omAzF1chtgZiMu7iLZv7NXGvqnEExgWJjG1wDQMISG/nb6w==
   dependencies:
     base-64 "^0.1.0"
     semver "^7.3.2"
 
-"@babylonjs/react-native@1.8.5":
-  version "1.8.5"
-  resolved "https://registry.yarnpkg.com/@babylonjs/react-native/-/react-native-1.8.5.tgz#694c845e593155f0fac34b5cb5325dac55d0faf4"
-  integrity sha512-QPSm2p1kOcAkhQ2Y4AnfFcGTX1v48RulwT/svh1kWaPf64KPv5yHHF8yNFl28mzDsaKjuSoGQZmJooVWYZhkXA==
+"@babylonjs/react-native@1.8.6":
+  version "1.8.6"
+  resolved "https://registry.yarnpkg.com/@babylonjs/react-native/-/react-native-1.8.6.tgz#29e89976eff82a54973384675deceb7e8c16b789"
+  integrity sha512-RnCLHK2vUT+NGXB1vef3Xg/Yx8oaWU327q7BicXvPjGbig7AeAnbHyrRYmVbMIBnUTQxWbUAV5NGDwpZ51Ed0Q==
   dependencies:
     base-64 "^0.1.0"
     semver "^7.3.2"
@@ -1580,9 +1580,9 @@
     "@types/node" "*"
 
 "@types/node@*":
-  version "22.15.15"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.15.15.tgz#8877c05c18e552e738438e477d7ba22c5d73a57c"
-  integrity sha512-R5muMcZob3/Jjchn5LcO8jdKwSCbzqmPB6ruBxMcf9kbxtniZHP327s6C37iOfuw8mbKK3cAQa7sEl7afLrQ8A==
+  version "22.15.16"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.15.16.tgz#685cf0338ad9f5b14860f50a6ac2c3ebd58582cd"
+  integrity sha512-3pr+KjwpVujqWqOKT8mNR+rd09FqhBLwg+5L/4t0cNYBzm/yEiYGCxWttjaPBsLtAo+WFNoXzGJfolM1JuRXoA==
   dependencies:
     undici-types "~6.21.0"
 
@@ -2488,9 +2488,9 @@ ee-first@1.1.1:
   integrity sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==
 
 electron-to-chromium@^1.5.149:
-  version "1.5.150"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.5.150.tgz#3120bf34453a7a82cb4d9335df20680b2bb40649"
-  integrity sha512-rOOkP2ZUMx1yL4fCxXQKDHQ8ZXwisb2OycOQVKHgvB3ZI4CvehOd4y2tfnnLDieJ3Zs1RL1Dlp3cMkyIn7nnXA==
+  version "1.5.151"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.5.151.tgz#5edd6c17e1b2f14b4662c41b9379f96cc8c2bb7c"
+  integrity sha512-Rl6uugut2l9sLojjS4H4SAr3A4IgACMLgpuEMPYCVcKydzfyPrn5absNRju38IhQOf/NwjJY8OGWjlteqYeBCA==
 
 emoji-regex@^8.0.0:
   version "8.0.0"

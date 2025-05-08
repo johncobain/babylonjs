@@ -9,10 +9,10 @@
     "web": "expo start --web"
   },
   "dependencies": {
-    "@babylonjs/core": "6.14.0",
-    "@babylonjs/loaders": "6.14.0",
-    "@babylonjs/react-native": "1.8.5",
-    "@babylonjs/react-native-iosandroid-0-71": "1.8.5",
+    "@babylonjs/core": "8.2.0",
+    "@babylonjs/loaders": "8.2.0",
+    "@babylonjs/react-native": "1.8.6",
+    "@babylonjs/react-native-iosandroid-0-71": "1.8.6",
     "expo": "^52.0.36",
     "expo-status-bar": "~2.2.3",
     "react": "18.2.0",
