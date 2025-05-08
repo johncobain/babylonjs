@@ -1478,6 +1478,11 @@
     hermes-parser "0.23.1"
     nullthrows "^1.1.1"
 
+"@react-native/normalize-colors@0.76.8":
+  version "0.76.8"
+  resolved "https://registry.yarnpkg.com/@react-native/normalize-colors/-/normalize-colors-0.76.8.tgz#79380c178ec7437f4857bebeb860ee97bb069318"
+  integrity sha512-FRjRvs7RgsXjkbGSOjYSxhX5V70c0IzA/jy3HXeYpATMwD9fOR1DbveLW497QGsVdCa0vThbJUtR8rIzAfpHQA==
+
 "@react-native/normalize-colors@0.76.9":
   version "0.76.9"
   resolved "https://registry.yarnpkg.com/@react-native/normalize-colors/-/normalize-colors-0.76.9.tgz#1c45ce49871ccea7d6fa9332cb14724adf326d6a"
@@ -2720,6 +2725,14 @@ expo-status-bar@~2.2.3:
   dependencies:
     react-native-edge-to-edge "1.6.0"
     react-native-is-edge-to-edge "^1.1.6"
+
+expo-system-ui@~4.0.9:
+  version "4.0.9"
+  resolved "https://registry.yarnpkg.com/expo-system-ui/-/expo-system-ui-4.0.9.tgz#a3dc4af52dab589dd433a28ed286360cea0e008d"
+  integrity sha512-hqBc0EWeK/BTB8i4H84vqNjje8GgxhapYrcWdg5qriaRA/u+bNNxhmpZXdAjFuhonOP4SmAbF+gjoJJWsTrhUg==
+  dependencies:
+    "@react-native/normalize-colors" "0.76.8"
+    debug "^4.3.2"
 
 expo@^52.0.36:
   version "52.0.46"
