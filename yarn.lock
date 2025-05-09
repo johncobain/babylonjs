@@ -735,15 +735,15 @@
     "@babel/helper-string-parser" "^7.27.1"
     "@babel/helper-validator-identifier" "^7.27.1"
 
-"@babylonjs/core@6.14.0":
-  version "6.14.0"
-  resolved "https://registry.yarnpkg.com/@babylonjs/core/-/core-6.14.0.tgz#da90c52f75d4235b8a202e7f5852148aae09070c"
-  integrity sha512-ciIfWMMtV5jsnqxqTn+v/CS65yji6CXTP2drmvLlzk+k+IZjE8RfkpMqZgZozN/KNkOmIVn2Li7qRMjg4ZUGlw==
+"@babylonjs/core@7.12.0":
+  version "7.12.0"
+  resolved "https://registry.yarnpkg.com/@babylonjs/core/-/core-7.12.0.tgz#1fe9744ce6db26112ca40ea0d8a43c5468ebba42"
+  integrity sha512-g/hB1BvS1VepJe4X3sSyVJ6p+GF/3bS8t9qXy6QfnF28YhLUmjUdwUpugnSUJPPMoHcBd/ETm9cYdeuJHO9/yg==
 
-"@babylonjs/loaders@6.14.0":
-  version "6.14.0"
-  resolved "https://registry.yarnpkg.com/@babylonjs/loaders/-/loaders-6.14.0.tgz#5e861748522dbf8da8b0b85140f64a04aa5c86ab"
-  integrity sha512-rGDMuyHEphpOHBO4JtY0vNIri2VMAmwUw3UmDJ+C00erQpiQDXyzG3IkJpXDHt7mWOJZNASRJjC76bPDu9zarg==
+"@babylonjs/loaders@7.12.0":
+  version "7.12.0"
+  resolved "https://registry.yarnpkg.com/@babylonjs/loaders/-/loaders-7.12.0.tgz#89ba568afbb9349755f85fbc0e5e5fb7495fc2ec"
+  integrity sha512-ToRp5M6+CmVcTTmz5qvmw4vokSnWV6fOMwbXDd06S0ciVOYhAEI/4uQYkpR4Qm8+zKsBxmR7UeTwjvKeDHXpzw==
 
 "@babylonjs/react-native-iosandroid-0-71@1.8.5":
   version "1.8.5"
